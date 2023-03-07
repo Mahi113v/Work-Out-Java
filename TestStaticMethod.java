@@ -22,16 +22,14 @@ import java.util.*;
 }
   public class TestStaticMethod
 {
-    public static void main(String args[])
+   public static void main(String args[])
 {
       Student.change();
-     
-       Student a = new Student ( 123 , "Mahi");
-       Student b = new Student (124 , "Jeeva");
-       Student c = new Student (125 , "Sanjay");
-
-	 a.display();
+	Student a = new Student ( 123 , "Mahi");
+	 Student b = new Student (124 , "Jeeva");
+	   Student c = new Student (125 , "Sanjay");
+	a.display();
 	 b.display();
-	 c.display();
+	  c.display();
 }
 }
