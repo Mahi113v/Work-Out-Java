@@ -6,20 +6,20 @@ import java.util.*;
  {
    System.out.println("eating...");
  }
-}
   class Dog extends Animal
   {
   void bark()
    {
-    System.out.println("barking...");
+   System.out.println("barking...");
    }
   }
  class SingleInterface
     {
-      public static void main(String[] args)
+      public static void main(String args[])
      {
-        Dog m =new Dog();
+        Dog m = new Dog();
 	  m.bark();
 	   m.eat();
      }
     }
+}
